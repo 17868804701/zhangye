@@ -1,0 +1,19 @@
+<!--index.wxml-->
+<view class="container">
+ <view class='content'>
+  <view class='list_question'>
+   <text class='question_title'>{{i}}、{{title}}</text>
+   <radio-group class="radio-group" bindchange="radioChange">
+    <label class="radio">
+     <view class='answer_list' wx:for="{{answer}}">
+      <radio value="新中国" checked="checked" style='zoom:75%' />
+      <text>{{item}}</text>
+     </view>
+    </label>
+   </radio-group>
+  </view>
+  <view class='btn'>
+  <button bindtap='next_question'>{{naxt_question}}</button>
+  </view>
+ </view>
+</view>

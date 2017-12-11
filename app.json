@@ -1,0 +1,30 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+   "selectedColor": "#4CAF50",
+   "borderStyle": "",
+   "list": [
+    {
+     "selectedIconPath": "pages/img/dt.png",
+     "iconPath": "pages/img/dt1.png",
+     "pagePath": "pages/index/index",
+     "text": "在线答题"
+    },
+    {
+     "selectedIconPath": "pages/img/sp.png",
+     "iconPath": "pages/img/sp1.png",
+     "pagePath": "pages/logs/logs",
+     "text": "视频播放"
+    }
+   ]
+  }
+}
