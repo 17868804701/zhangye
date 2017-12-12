@@ -1,0 +1,10 @@
+/* pages/video/video.wxss */
+.title{
+ text-align: center;
+ font-size: 30rpx;
+ margin-top: 80rpx;
+}
+.title view:nth-child(2){
+ margin-top: 20rpx;
+ color: #999999;
+}

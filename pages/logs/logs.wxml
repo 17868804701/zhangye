@@ -1,6 +1,28 @@
 <!--logs.wxml-->
-<view class="container log-list">
-  <block wx:for="{{logs}}" wx:for-item="log">
-    <text class="log-item">{{index + 1}}. {{log}}</text>
-  </block>
+<view class="container">
+ <view class='list' bindtap='video'>
+  <view class='item'>拖拉机液压系统故障分析(一)</view>
+  <view class='item1'>点击观看</view>
+  <view class='item2'>2017-11-26</view>
+ </view>
+  <view class='list' bindtap='video'>
+  <view class='item'>拖拉机液压系统故障分析(二)</view>
+  <view class='item1'>点击观看</view>
+  <view class='item2'>2017-11-26</view>
+ </view>
+  <view class='list' bindtap='video'>
+  <view class='item'>拖拉机液压系统故障分析(三)</view>
+  <view class='item1'>点击观看</view>
+  <view class='item2'>2017-11-26</view>
+ </view>
+  <view class='list' bindtap='video'>
+  <view class='item'>拖拉机液压系统故障分析(四)</view>
+  <view class='item1'>点击观看</view>
+  <view class='item2'>2017-11-26</view>
+ </view>
+  <view class='list' bindtap='video'>
+  <view class='item'>拖拉机液压系统故障分析(五)</view>
+  <view class='item1'>点击观看</view>
+  <view class='item2'>2017-11-26</view>
+ </view>
 </view>

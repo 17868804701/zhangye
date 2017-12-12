@@ -6,13 +6,14 @@
    <radio-group class="radio-group" bindchange="radioChange">
     <label class="radio">
      <view class='answer_list' wx:for="{{answer}}">
-      <radio value="新中国" checked="checked" style='zoom:75%' />
-      <text>{{item}}</text>
+      <radio value="{{item}}" checked="" style='zoom:75%' />
+      <text class='answer'>{{item}}</text>
      </view>
     </label>
    </radio-group>
   </view>
   <view class='btn'>
+  <button bindtap='prev_question'>{{prev_question}}</button>
   <button bindtap='next_question'>{{naxt_question}}</button>
   </view>
  </view>

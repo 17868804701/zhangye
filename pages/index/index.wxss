@@ -1,32 +1,50 @@
 /**index.wxss**/
-.list_question{
+
+.list_question {
  margin: 25rpx;
  font-size: 33rpx;
  line-height: 55rpx;
 }
-.radio-group{
- margin-top:20rpx;
+
+.radio-group {
+ margin-top: 20rpx;
  margin-left: 15rpx;
 }
-.answer_list{
+
+.answer_list {
  margin-bottom: 25rpx;
 }
-.answer_list radio{
+
+.answer_list radio {
  margin-top: -2rpx;
  position: absolute;
 }
-.answer_list text{
+
+.answer_list text {
  margin-left: 60rpx;
 }
-.btn{
-position: fixed;
-bottom: 0;
-width: 100%;
+
+.btn {
+ position: fixed;
+ bottom: 30rpx;
+ width: 100%;
+ display: flex;
 }
-.btn button{
-background: #35af47;
-color: white;
-font-size: 30rpx;
-height: 80rpx;
-line-height: 80rpx;
+
+.btn button {
+ background: #35af47;
+ color: white;
+ font-size: 30rpx;
+ height: 80rpx;
+ line-height: 80rpx;
+ border-radius: 20rpx;
+}
+
+.question_title {
+ font-size: 37rpx;
+ color: #333;
+}
+
+.answer {
+ color: #333;
 }

@@ -1,8 +1,20 @@
-.log-list {
-  display: flex;
-  flex-direction: column;
-  padding: 40rpx;
+.list{
+ width: 100%;
+ border-bottom: 1px solid ghostwhite;
 }
-.log-item {
-  margin: 10rpx;
+.item{
+ margin: 20rpx 0 0 20rpx;
+ font-size: 30rpx;
+ font-weight: bold;
+ color: #333;
+}
+.item1{
+ margin: 10rpx 0 20rpx 20rpx;
+ font-size: 30rpx;
+ color: #999999;
+}
+.item2{
+ margin: -60rpx 0 20rpx 520rpx;
+ font-size: 30rpx;
+ color: #999999;
 }
